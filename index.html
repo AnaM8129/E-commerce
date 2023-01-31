@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./estilos/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="header-nav">
+          <img
+            id="header-nav__img"
+            src="./imagenes/Tiendita@2x.png"
+            alt="Logo-tiendita"
+          />
+
+          <div class="ubication-container">
+            <button id="button-open-ubication">
+              <img src="./imagenes/Union.png" alt="Position" />
+            </button>
+            <p id="ubication-container__show">Selecciona tu ubicación</p>
+          </div>
+          <img src="./imagenes/Line 1.png" alt="Linea de separación" />
+          <button id="carritoCompra">
+            <img src="./imagenes/Union (1).png" alt="compra" />
+            <p id="numeroCompra"></p>
+          </button>
+        </nav>
+      </header>
+
+      <section class="section-image">
+        <div class="image-container">
+          <h1 id="image-container__h1">
+            ¡Adquiere todos tus productos favoritos al mejor precio!
+          </h1>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-container hidden" id="modal">
+      <div>
+        <header class="modal-card-head">
+          <button class="button delete-modal" id="delete-modal">
+            <img src="./imagenes/Icons.png" alt="cancel logo" />
+          </button>
+        </header>
+        <h2 id="section-card-body__h2">¿Dónde quieres recibir tu pedido?</h2>
+        <p id="section-card-body__p">
+          Para poder ofrecerte productos de tu área , necesitamos tu dirección
+        </p>
+        <div class="select">
+          <select id="select-ubication" class="select-Ubication">
+            <option hidden selected>Selecciona tu departamento</option>
+          </select>
+          <!-- <select id="select-ubication-cui" class="select-Ubication">
+            <option hidden selected>Selecciona tu cuidad</option>
+          </select> -->
+        </div>
+        <button class="save-ubication" id="save-ubication">Buscar</button>
+      </div>
+    </div>
+
+    <div>
+      <p id="ofertas-title">Ofertas</p>
+    </div>
+
+    <div class="modal-shopping hidden-shopping" id="modal">
+      <header class="modal-shopping__header">
+        <button id="close-shopping__button">
+          <img src="./imagenes/Icons.png" alt="" />
+        </button>
+        <h4 id="modal-shiping__h4">Tu carrito de compras</h4>
+      </header>
+      <button id="go-to-page-product">
+        <a href="./pageProduct.html">Ir a pagar</a>
+      </button>
+      <div>
+        <button id="button-pagar"></button>
+      </div>
+      <div id="show-ubication-modal"></div>
+      <main class="shopping-list__container">
+        <!-- <div class="product-list-container">
+          <img
+            class="shopping-list__container-img"
+            src="https://media.istockphoto.com/id/94929126/es/foto/avocados-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=jarWOCevkwfkgOfvDBkeOmOJvNlJFLhzRJpBg8jisno="
+            alt="Aguacate"
+          />
+          <div class="shopping-list__container-information">
+            <p id="shipping-list-name">Aguacate</p>
+            <p id="shopping-list-price">11500</p>
+          </div>
+          <div>
+            <button id="eliminar-list-product">
+              <img src="./imagenes/flecha-hacia-abajo.png" alt="Eliminar">
+            </button>
+          </div>
+        </div> -->
+      </main>
+    </div>
+
+    <section class="cards-products__section-descount"></section>
+
+    <section class="cards-products__section-general"></section>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js" type="text/javascript"></script>
+  </body>
+</html>

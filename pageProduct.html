@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paga tus productos</title>
+    <link rel="stylesheet" href="./estilos/stylesPageProduct.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="button-container">
+      <button id="back__button">
+        <a href="./index.html">
+          <img
+            id="button-img"
+            src="./imagenes/flecha-hacia-abajo.png"
+            alt="Arrow"
+          />
+        </a>
+      </button>
+      <p id="button-text">Volver</p>
+    </div>
+    <main class="general-main">
+      <!-- <section class="shopping-container">
+        <div class="modal-shopping" id="modal">
+          <div id="show-ubication-modal"></div>
+          <main class="shopping-list__container">
+            <div class="product-list-container">
+              <img
+                class="shopping-list__container-img"
+                src="https://media.istockphoto.com/id/94929126/es/foto/avocados-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=jarWOCevkwfkgOfvDBkeOmOJvNlJFLhzRJpBg8jisno="
+                alt="Aguacate"
+              />
+              <div class="shopping-list__container-information">
+                <p id="shipping-list-name">Aguacate</p>
+                <p id="shopping-list-price">11500</p>
+              </div>
+              <div>
+                <button id="eliminar-list-product">Eliminar</button>
+              </div>
+            </div>
+          </main>
+          <button></button>
+        </div>
+      </section> -->
+      <section class="form-container">
+        <div class="modal-form">
+          <form id="form" class="form">
+            <label class="form__label" id="email-label" for="cardholder"
+              >Correo electrónico</label
+            >
+            <input
+              required=""
+              type="email"
+              class="form__input"
+              id="email__input"
+            />
+
+            <label
+              class="form__label"
+              id="information-label"
+              for="input__month input__year"
+              for="input__cvc"
+              >Información de la tarjeta</label
+            >
+
+            <!-- <label class="form__label" id="cvc" for="input__cvc">CVC</label> -->
+
+            <div class="form__date2">
+              <input
+                required=""
+                placeholder="1234 1234 1234 1234"
+                type="number"
+                class="form__input"
+                maxlength="16"
+                id="input__number"
+              />
+
+              <div class="form__date-container">
+                <input
+                  required=""
+                  placeholder="MM/YY"
+                  type="text"
+                  class="form__input"
+                  maxlength="5"
+                  name="cardYear"
+                  id="input__date"
+                />
+
+                <input
+                  class="form__input"
+                  type="text"
+                  maxlength="3"
+                  placeholder="CVC"
+                  id="input__cvc"
+                />
+              </div>
+            </div>
+
+            <label class="form__label" id="name-target-label" for="cardNumber"
+              >Nombre de la tarjeta</label
+            >
+            <input type="text" class="form__input" id="card-name__input" />
+
+            <button class="buttom" id="form__submit">Pagar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./main.js" type="text/javascript"></script>
+    <script src="./pageProduct.js" type="text/javascript"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

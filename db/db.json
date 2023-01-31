@@ -1,0 +1,395 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "url": "https://us.123rf.com/450wm/atoss/atoss2204/atoss220400095/atoss220400095.jpg?ver=6",
+      "name": "Aguacate",
+      "price": 4000,
+      "weight": "170 gr",
+      "type": "fruta"
+    },
+    {
+      "id": 2,
+      "url": "https://img.freepik.com/fotos-premium/naranja-natural-valecia-fruta-corte-mitad-hojas-verdes-aisladas-sobre-fondo-blanco_252965-17.jpg?w=2000",
+      "name": "Naranja * 5",
+      "price": 5000,
+      "weight": "200 gr",
+      "type": "fruta"
+    },
+    {
+      "id": 3,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRDY1mFJfajFxjMlBtQTT39fY07edY-wc0r1JvCnpkTg&s",
+      "name": "limón * 6",
+      "price": 8000,
+      "weight": "1000 gr",
+      "type": "fruta"
+    },
+    {
+      "id": 4,
+      "url": "https://img.freepik.com/fotos-premium/papa-aislado-sobre-fondo-blanco_517510-832.jpg",
+      "name": "Papa * 3",
+      "price": 3200,
+      "weight": "500 gr",
+      "type": "tuberculo"
+    },
+    {
+      "id": 5,
+      "url": "https://media.istockphoto.com/id/182877184/es/foto/tomatillos-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=oS1pYM-pozPnHS3j9DHN_ynyOC0_6fc0_h5Emp-RB00=",
+      "name": "Tomate verde",
+      "price": 5200,
+      "weight": "1 k",
+      "type": "verdura"
+    },
+    {
+      "id": 6,
+      "url": "https://us.123rf.com/450wm/framarzo/framarzo2112/framarzo211200115/framarzo211200115.jpg?ver=6",
+      "name": "Tomate rojo",
+      "price": 5000,
+      "weight": "1k",
+      "type": "verdura"
+    },
+    {
+      "id": 7,
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC7gSWigE5aPcTBoThOyJCeSSCezWxAtpoNbm1_1Y3&s",
+      "name": "Coco",
+      "price": 4600,
+      "weight": "2,5 kg",
+      "type": "fruta"
+    },
+    {
+      "id": 8,
+      "url": "https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750100011112L.jpg?odnHeight=80&odnWidth=80&odnBg=FFFFFF",
+      "name": "Pan bimbo 15 UND",
+      "price": 13000,
+      "weight": "360 gr",
+      "type": "arinas"
+    },
+    {
+      "id": 9,
+      "url": "https://thumbs.dreamstime.com/b/colgar-dientes-fuertes-fresco-aliento-pasta-dental-en-el-fondo-blanco-colgate-es-una-marca-de-dent%C3%ADfrico-producida-por-203319315.jpg",
+      "name": "Colgate pasta dental",
+      "price": 8900,
+      "weight": "125 ml",
+      "type": "higiene"
+    },
+    {
+      "id": 10,
+      "url": "https://fruitjuicecolombia.com/wp-content/uploads/2021/01/Zuvida2Litro.jpg",
+      "name": "Zumo de uva",
+      "price": 9100,
+      "weight": "2000 ml",
+      "type": "bebidas azucaradas"
+    }
+  ],
+
+  "promociones": [
+    {
+      "id": 11,
+      "url": "https://akilo.co/wp-content/uploads/2020/07/fabuloso-lavanda-x-1-l.png",
+      "name": "limpiador fabuloso * 2",
+      "price": 11500,
+      "weight": "2 litros",
+      "type": "aseo"
+    },
+    {
+      "id": 12,
+      "url": "https://thumbs.dreamstime.com/b/coca-cola-con-fondo-blanco-coke-cero-az%C3%BAcar-en-el-cocacola-es-una-bebida-gaseosa-carbonatada-vendida-tiendas-de-todo-mundo-191163280.jpg",
+      "name": "cocacola sin azucar * 2",
+      "price": 6000,
+      "weight": "1 litros",
+      "type": "bebidas azucaradas"
+    },
+    {
+      "id": 13,
+      "url": "https://thumbs.dreamstime.com/b/frijol-de-ri%C3%B1%C3%B3n-o-rojo-en-el-saco-sobre-fondo-blanco-190359017.jpg",
+      "name": "Frijol * 2",
+      "price": 16000,
+      "weight": "1k",
+      "type": "granos"
+    },
+    {
+      "id": 14,
+      "url": "https://us.123rf.com/450wm/denismart/denismart1801/denismart180100056/92973418-londres-reino-unido-02-de-enero-de-2018-recipiente-de-pl%C3%A1stico-de-mayonesa-de-hellman-sobre-fondo-bl.jpg",
+      "name": "Mayonesa * 3 UND",
+      "price": 14000,
+      "weight": "505 gr",
+      "type": "salsas"
+    },
+    {
+      "id": 15,
+      "url": "https://static.vecteezy.com/system/resources/previews/008/118/704/non_2x/egg-in-an-egg-crate-on-white-background-photo.jpg",
+      "name": "Huevos de codorniz * 30 UND ",
+      "price": 15000,
+      "weight": "645 gr",
+      "type": "lacteos"
+    },
+    {
+      "id": 16,
+      "url": "https://d1cft8rz0k7w99.cloudfront.net/n/8/a/1/b/8a1bc2aea802c29251d9425deb9fc6d1907f8d4f_Milk_316448_02.jpg",
+      "name": "Bolsa de leche * 3 UND",
+      "price": 10000,
+      "weight": "1 litros",
+      "type": "lacteos"
+    },
+    {
+      "id": 17,
+      "url": "https://colanta.com/sabe-mas/wp-content/uploads/2019/01/Quesito-250g.jpg",
+      "name": "Quesito * 3 UND",
+      "price": 9000,
+      "weight": "250 gr",
+      "type": "lacteos"
+    },
+    {
+      "id": 18,
+      "url": "https://i.pinimg.com/originals/c2/75/f5/c275f52149a211ee5c223b6f698e433a.jpg",
+      "name": "Doritos * 6 paquetes",
+      "price": 15000,
+      "weight": "58 gr",
+      "type": "pasabocas"
+    },
+    {
+      "id": 19,
+      "url": "https://lh3.googleusercontent.com/CALvx3TMhul482qRHfyaCZDB4wfI9HC3rGTPYVWFPwnV3Vxs6IxfCKIeyvZ73Sj9vZin50CJYqwmHz47rygvCL3cz8hCZCFlZg",
+      "name": "Todo rico * 4 paquetes ",
+      "price": 15000,
+      "weight": "45 gr",
+      "type": "pasabocas"
+    },
+    {
+      "id": 20,
+      "url": "https://mistiendas.com.co/1851-large_default/chocolatina-jumbo-jet-x100.jpg",
+      "name": "Chocolatina jumbo jet * 6 UND",
+      "price": 14000,
+      "weight": "40 gr",
+      "type": "dulce"
+    }
+  ],
+
+  "Cuidades": [
+    {
+      "id": 0,
+      "departamento": "Amazonas",
+      "ciudades": ["Leticia", "Puerto Nariño"]
+    },
+    {
+      "id": 1,
+      "departamento": "Antioquia",
+      "ciudades": [
+        "Medellín",
+        "Abejorral",
+        "Barbosa",
+        "Bello",
+        "Belmira",
+        "Betania",
+        "Betulia",
+        "Caldas",
+        "Campamento",
+        "Cisneros",
+        "Ciudad Bolivar",
+        "Copacabana",
+        "El Carmen de Viboral",
+        "El Santuario",
+        "Envigado",
+        "Fredonia",
+        "Girardota",
+        "Guarne",
+        "Guatape",
+        "Heliconia",
+        "La Ceja",
+        "La Estrella",
+        "La Pintada",
+        "La Unión",
+        "Liborina",
+        "Maceo",
+        "Marinilla"
+      ]
+    },
+    {
+      "id": 2,
+      "departamento": "Arauca",
+      "ciudades": [
+        "Arauca",
+        "Arauquita",
+        "Cravo Norte",
+        "Fortul",
+        "Puerto Rond\u00f3n",
+        "Saravena",
+        "Tame"
+      ]
+    },
+    {
+      "id": 3,
+      "departamento": "Caldas",
+      "ciudades": [
+        "Aguadas",
+        "Anserma",
+        "Aranzazu",
+        "Filadelfia",
+        "La Dorada",
+        "La Merced",
+        "Manizales",
+        "Manzanares",
+        "Marmato",
+        "Marquetalia",
+        "Marulanda",
+        "Neira",
+        "Norcasia"
+      ]
+    },
+    {
+      "id": 4,
+      "departamento": "Caquetá",
+      "ciudades": [
+        "Albania",
+        "Curillo",
+        "El Doncello",
+        "El Paujil",
+        "Florencia",
+        "Morelia",
+        "Puerto Rico",
+        "Solano",
+        "Solita"
+      ]
+    },
+    {
+      "id": 5,
+      "departamento": "Cauca",
+      "ciudades": [
+        "Almaguer",
+        "Argelia",
+        "Balboa",
+        "Buenos Aires",
+        "Caldono",
+        "Caloto",
+        "Corinto",
+        "El Tambo",
+        "Florencia",
+        "La Sierra",
+        "La Vega",
+        "Mercaderes",
+        "Miranda",
+        "Morales",
+        "Padilla",
+        "Piamonte",
+        "Popayan",
+        "Puerto Tejada",
+        "Rosas",
+        "San Sebastian",
+        "Santa Rosa",
+        "Santander de Quilichao",
+        "Silvia",
+        "Sucre",
+        "Villa Rica"
+      ]
+    },
+    {
+      "id": 6,
+      "departamento": "Cesar",
+      "ciudades": [
+        "Aguachica",
+        "Astrea",
+        "Becerril",
+        "Bosconia",
+        "Chimichagua",
+        "El Copey",
+        "El Paso",
+        "Gamarra",
+        "Gonzalez",
+        "La Gloria (Cesar)",
+        "La Jagua de Ibirico",
+        "La Paz",
+        "Pailitas",
+        "Pelaya",
+        "Pueblo Bello",
+        "San Alberto",
+        "San Diego",
+        "San Martin",
+        "Tamalameque",
+        "Valledupar"
+      ]
+    },
+    {
+      "id": 7,
+      "departamento": "Cordoba",
+      "ciudades": [
+        "Ayapel",
+        "Buenavista",
+        "Canalete",
+        "Cotorra",
+        "La Apartada",
+        "Lorica",
+        "Momil",
+        "Planeta Rica",
+        "Pueblo Nuevo",
+        "Puerto Escondido",
+        "Puerto Libertador",
+        "San Antero",
+        "San Bernardo del Viento",
+        "San Carlos",
+        "San Pelayo",
+        "Tierralta",
+        "Valencia"
+      ]
+    },
+    {
+      "id": 8,
+      "departamento": "Guaviare",
+      "ciudades": [
+        "Calamar",
+        "El Retorno",
+        "Miraflores",
+        "San José del Guaviare"
+      ]
+    },
+    {
+      "id": 9,
+      "departamento": "La Guajira",
+      "ciudades": [
+        "Albania",
+        "Barrancas",
+        "Dibulla",
+        "Distracción",
+        "El Molino",
+        "Fonseca",
+        "Hatonuevo",
+        "La Jagua del Pilar",
+        "Maicao",
+        "Manaure",
+        "Riohacha",
+        "San Juan del Cesar",
+        "Uribia",
+        "Urumita",
+        "Villanueva"
+      ]
+    },
+    {
+      "id": 10,
+      "departamento": "Magdalena",
+      "ciudades": [
+        "Algarrobo",
+        "Aracataca",
+        "Cerro de San Antonio",
+        "Chibolo",
+        "Chibolo",
+        "Cienaga",
+        "Concordia",
+        "El Banco",
+        "Guamal",
+        "Nueva Granada",
+        "Pedraza",
+        "Pivijay",
+        "Plato",
+        "Pueblo Viejo",
+        "Remolino",
+        "Sabanas de San Angel",
+        "Salamina",
+        "San Sebastian de Buenavista",
+        "Santa Ana",
+        "Santa Marta",
+        "Sitionuevo",
+        "Tenerife",
+        "Zona Bananera"
+      ]
+    }
+  ]
+}
